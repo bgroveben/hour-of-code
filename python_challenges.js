@@ -13,19 +13,15 @@ const challenges = [
       code: [
         "<div id='preview-container'>",
         "<link rel='stylesheet' href='preview-style.css'>",
-        "<img style='width: 150px; height: 150px' id='img-cont' onerror='this.src=`assets/err.png`'>",
+        "<iframe src='https://trinket.io/embed/python3/e342f7c5de' width='100%' height='356' frameborder='0' marginwidth='0' marginheight='0' allowfullscreen></iframe>",
         "<script type='text/javascript'>",
         "var img = document.getElementById('img-cont');var body = document.getElementsByTagName('body')[0];",
-        "function createAnimal(animal) {img.src = `assets/${animal.toLowerCase().trim()}.svg`;}",
-        "function chooseColor(color) {body.className=color.toLowerCase().trim();}",
         "total = 10 + 0",
-        "",
-        "",
         "</script>",
         "</div>"
       ],
       hiddenLines: [
-        {start: -1, end: 6}, {start: 9, end: 20}
+        {start: -1, end: 4}, {start: 5, end: 20}
       ]
     },
     tests: [
