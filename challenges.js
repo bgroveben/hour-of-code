@@ -3,7 +3,7 @@
 const challenges = [
   {
     number: 1,
-    name: "#1 Welcome to 'Hour of Code'!",
+    name: "#1 Welcome to 'Minute of Code'!",
     instructions: [
       "In this adventure, we will be playing with an animal using code!",
       "Choose your animal, and your color.",
