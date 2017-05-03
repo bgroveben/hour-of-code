@@ -3,13 +3,11 @@
 const challenges = [
   {
     number: 1,
-    name: "#1 Welcome to Python Basics - Math!",
+    name: "Add two numbers with Python.",
     instructions: [
-      "In this adventure, we will be playing with an animal using code!",
-      "Choose your animal, and your color.",
-      "<div class='animal-container'><div class='monkey'><span>Monkey</span> <img class='animal' src='assets/monkey.svg' alt='monkey'></div><div class='horse'><span>Horse</span> <img class='animal' src='assets/horse.svg' alt='horse'></div><div class='tiger'><span>Tiger</span> <img class='animal' src='assets/tiger.svg' alt='tiger'></div></div>",
-      "<div class='color-container'><div class='red'>Red</div><div class='green'>Green</div><div class='blue'>Blue</div></div>",
-      "Create your animal below by changing <span class='inline-code'>animal</span> and <span class='inline-code'>color</span> to your selection, leaving the quotes."
+      "In Python, an integer (int) is one of 3 distinct numeric types. In this exercise, you will add two integers using the plus (+) operator.",
+      "<pre class='codeblock'>>>> 2 + 2\n4</pre>",
+      "<b>Change the 0 so that total will equal 20.</b>"
     ],
     seed: {
       code: [
@@ -20,8 +18,8 @@ const challenges = [
         "var img = document.getElementById('img-cont');var body = document.getElementsByTagName('body')[0];",
         "function createAnimal(animal) {img.src = `assets/${animal.toLowerCase().trim()}.svg`;}",
         "function chooseColor(color) {body.className=color.toLowerCase().trim();}",
-        "createAnimal('animal');",
-        "chooseColor('color');",
+        "total = 10 + 0",
+        "",
         "",
         "</script>",
         "</div>"
